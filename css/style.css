@@ -1,0 +1,15 @@
+.adlayer {
+	width: 1000;
+	height: 300;
+	border: 1px solid black;
+}
+
+.adlayer.black {
+	background: black;
+	color: white;
+
+}
+
+p {
+	font-family: 'Overlock', Arial;
+}
