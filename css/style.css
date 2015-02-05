@@ -3,38 +3,30 @@ body {
 	font-family: 'Overlock', Arial;
 	text-align: center;
 }
-.a2D882D {
+.menu {
 	background-color: #2D882D;
 }
-.a226666 {
+.slider {
 	background-color: #226666;
 }
-.a57AB85 {
+.about {
 	background-color: #57AB85;
 }
-.aFFB07D {
+.services {
 	background-color: #FFB07D;
 }
-.a316D00 {
+.references {
 	background-color: #316D00;
 }
-.a77C4B5 {
-	background-color: #77C4B5;
-}
-.aC2E6A4 {
-	background-color: #226666;
-}
-.aFF9C5C {
-	background-color: #FF9C5C;
-}
 
-.floating_ads > div {
+.container > div {
 	height: 273px;
 	width: 1563px;
 	opacity: 0.5;
 }
+/* strzalka oznacza bezposrednie dziecko*/
 
-.floating_ads > div:hover {
+.container > div:hover {
 	opacity: 0.9;
 }
 
@@ -42,6 +34,33 @@ p {
 	font-family: 'Overlock', Arial;
 }
 
+.menu li {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	display: inline;
+	border: 1px dashed #071B28;
+}
+
+.slider p {
+	margin-top: 0px;
+}
+
+.about p {
+	margin-top: 0px;
+}
+
+.services p {
+	margin-top: 0px;
+}
+
+.references p{
+	margin-top: 0px;
+}
+
+.footer p {
+	margin-top: 0px;
+}
 /* transition: 300ms ease;
 transition-property: initial;
 transition-duration: 300ms;
@@ -54,4 +73,4 @@ transition-delay: initial;
 -webkit-transition-delay: initial;
 -moz-transition: 300ms ease;
 -o-transition: 300ms ease;
--ms-transition: 300ms ease; 
+-ms-transition: 300ms ease;
