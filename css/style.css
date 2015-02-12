@@ -1,10 +1,28 @@
+* {
+	box-sizing: border-box; /* automatyzuje wysokosc, dopasowuje paddingi*/
+}
+
 body {
 	background-color: #DDDDDD;
 	font-family: 'Overlock', Arial;
 	text-align: center;
 }
-.menu {
-	background-color: #2D882D;
+header {
+	height: 150px;
+	position: fixed;
+	top: 0;
+	left:0;
+	right:0;
+}
+.menu li {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	display: inline;
+	padding: 50px 75px 50px 75px;
+	background-color: #9D9D9D;
+	color: black;
+	font-size: 22px
 }
 .slider {
 	background-color: #226666;
@@ -22,11 +40,15 @@ body {
 .container > div {
 	height: 273px;
 	width: 1563px;
-	opacity: 0.5;
 }
 /* strzalka oznacza bezposrednie dziecko*/
+.container > .about {
+	height: 273px;
+	width: 1563px;
+	opacity: 0.5;
+}
 
-.container > div:hover {
+.container > .about:hover {
 	opacity: 0.9;
 }
 
@@ -34,13 +56,6 @@ p {
 	font-family: 'Overlock', Arial;
 }
 
-.menu li {
-	list-style-type: none;
-	padding-left: 0px;
-	margin-left: 0px;
-	display: inline;
-	border: 1px dashed #071B28;
-}
 
 .slider p {
 	margin-top: 0px;
