@@ -12,7 +12,6 @@ body {
 	text-align: center;
 }
 
-
 header {
 	background-color: #E6E6E6;
 	height: 100px;
@@ -60,29 +59,48 @@ nav {
 	margin-top: 100px;
 }
 
+.container > div {
+	height: 350px;
+	width: 100%;
 }
 .about {
 	background-color: #FDFDFD;
+	width: 70%;
 }
+.about p {
+	width: 70%;
+	position: center;
+}
+
+.about img {
+	float: right;
+	height: 100%;
+	width: 30%;
+}
+
+/* nie dziala slider, for some reason,
+chcę też popracować nad obrazkiem w sekcji about,
+nie mogę wyłapać elementu ktory go przesuwa w dół.*/
+
 .services {
 	background-color: #FFB07D;
 }
+
+.flexslider li {
+	list-style-type: none;
+}
+
 .references {
 	background-color: #FDFDFD;
 }
 
-.container > div {
-	height: 273px;
-	width: 100%;
-}
 /* strzalka oznacza bezposrednie dziecko*/
-.container > .about {
+/*.container > .about {
 	opacity: 0.5;
 }
-
 .container > .about:hover {
 	opacity: 0.9;
-}
+} */
 
 p {
 	font-family: 'Overlock', Arial;
@@ -108,16 +126,4 @@ p {
 .footer p {
 	margin-top: 0px;
 }
-/* transition: 300ms ease;
-transition-property: initial;
-transition-duration: 300ms;
-transition-timing-function: ease;
-transition-delay: initial;
--webkit-transition: 300ms ease;
--webkit-transition-property: initial;
--webkit-transition-duration: 300ms;
--webkit-transition-timing-function: ease;
--webkit-transition-delay: initial;
--moz-transition: 300ms ease;
--o-transition: 300ms ease;
--ms-transition: 300ms ease;
+
