@@ -5,6 +5,14 @@
 	<meta charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Overlock:400,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  	$(window).load(function() {
+    $('.flexslider').flexslider();
+ 	 });
+	</script>
 </head>
 
 <header>
@@ -19,10 +27,6 @@
 </header>
 
 <div class="container">
-	<div class="slider">
-		<p>Slider</p>
-	</div>
-
 	<div class="about">
 		<p>O firmie</p>
 	</div>
@@ -31,6 +35,20 @@
 		<p>Nasze usługi</p>
 	</div>
 
+	<div class="flexslider">
+	  <ul class="slides">
+	    <li>
+	      <img src="slide1.jpg" />
+	    </li>
+	    <li>
+	      <img src="slide2.jpg" />
+	    </li>
+	    <li>
+	      <img src="slide3.jpg" />
+	    </li>
+	  </ul>
+	</div>
+	
 	<div class="references">
 		<p>Referencje</p>
 	</div>
