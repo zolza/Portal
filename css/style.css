@@ -19,7 +19,9 @@ header {
 	top: 0;
 	left:0;
 	right:0;
+	z-index: 100;
 }
+
 nav {
 	width: 100%;
 	height: 100%;
@@ -62,36 +64,61 @@ nav {
 .container > div {
 	height: 350px;
 	width: 100%;
+	padding-top: 35px;
 }
+
 .about {
-	background-color: #FDFDFD;
+	background-color: #FFFFFF;
 	width: 70%;
+	position: relative;
+	padding-bottom: 35px;
+	position: relative;
 }
+
 .about p {
 	width: 70%;
-	position: center;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
 .about img {
-	float: right;
-	height: 100%;
+	height: 80%;
 	width: 30%;
+	position: absolute;
+	right: 0;
 }
-
-/* nie dziala slider, for some reason,
-chcę też popracować nad obrazkiem w sekcji about,
-nie mogę wyłapać elementu ktory go przesuwa w dół.*/
 
 .services {
-	background-color: #FFB07D;
+	background-color: #EEEEEE;
 }
 
-.flexslider li {
-	list-style-type: none;
+.services p {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.reptiles {
+	background-color: #9C9C9C;
+	position: relative;
+}
+
+.tiles {
+	width:20%;
+	position: absolute;
+	left: 41%;
 }
 
 .references {
 	background-color: #FDFDFD;
+}
+
+.container .footer {
+	background-color: #EEEEEE;
+	height: 200px;
 }
 
 /* strzalka oznacza bezposrednie dziecko*/
@@ -106,11 +133,6 @@ p {
 	font-family: 'Overlock', Arial;
 }
 
-
-.slider p {
-	margin-top: 0px;
-}
-
 .about p {
 	margin-top: 0px;
 }
@@ -119,7 +141,7 @@ p {
 	margin-top: 0px;
 }
 
-.references p{
+.references p {
 	margin-top: 0px;
 }
 

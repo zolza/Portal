@@ -5,14 +5,8 @@
 	<meta charset="utf-8">
 	<link href='http://fonts.googleapis.com/css?family=Overlock:400,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="flexslider.css" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="jquery.flexslider.js"></script>
-	<script type="text/javascript" charset="utf-8">
-  	$(window).load(function() {
-    $('.flexslider').flexslider();
- 	 });
-	</script>
+	<script src="wayp/lib/noframework.waypoints.min.js"></script>
+	<script src="wayp/lib/shortcuts/sticky.min.js"></script>
 </head>
 
 <body>
@@ -20,36 +14,32 @@
 <header>
 	<nav>
 		<ul class="menu">
-			<li><a href='#'>O firmie</a></li>
-			<li><a href='#'>Nasze usługi</a></li>
-			<li><a href='#'>Referencje</a></li>
-			<li><a href='#'>Kontakt</a></li>
+			<li id="navAbout"><a href='#'>O firmie</a></li>
+			<li id="navServ"><a href='#'>Nasze usługi</a></li>
+			<li id="navRef"><a href='#'>Referencje</a></li>
+			<li id="navContact"><a href='#'>Kontakt</a></li>
 		</ul>
 	</nav>
 </header>
 
 <div class="container">
 	<div class="about">
-		<p>O firmie</p>
+		<p>O firmie <br>
+			<br>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
 		<img src="path.jpg" />
 	</div>
 
 	<div class="services">
-		<p>Nasze usługi</p>
+		<p>Nasze usługi <br>
+			<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
 	</div>
 
-	<div class="flexslider">
-	  <ul class="slides">
-	    <li>
-	      <img src="path.jpg" />
-	    </li>
-	    <li>
-	      <img src="tree.jpg" />
-	    </li>
-	    <li>
-	      <img src="red_tree.jpg" />
-	    </li>
-	  </ul>
+	<div class="reptiles">
+		<div class="tiles">
+		</div>
 	</div>
 
 	<div class="references">
@@ -57,7 +47,9 @@
 	</div>
 
 	<div class="footer">
-		<p>Kontakt</p>
+		<p>Kontakt <br>
+			<br>Adam Kozioł<br>Tarnów, małopolska<br><br>Pytania prosimy kierować na adres<br>email: firma.adbud@gmail.com 
+		</p>
 	</div>
 </div>
 
