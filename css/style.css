@@ -106,10 +106,10 @@ nav {
 	position: relative;
 }
 
-.tiles {
-	width:20%;
-	position: absolute;
-	left: 41%;
+#gallery img {
+	display: inline-block;
+	width: 20%;
+	height: 45%;
 }
 
 .references {
