@@ -28,6 +28,7 @@ nav {
 	position: absolute;
 	top:0;
 }
+
 .menu {
 	height: 100%;
 	margin: 0;
@@ -64,7 +65,6 @@ nav {
 .container > div {
 	height: 350px;
 	width: 100%;
-	padding-top: 35px;
 }
 
 .about {
@@ -73,6 +73,7 @@ nav {
 	position: relative;
 	padding-bottom: 35px;
 	position: relative;
+	padding-top: 35px;
 }
 
 .about p {
@@ -94,6 +95,7 @@ nav {
 
 .services {
 	background-color: #EEEEEE;
+	padding-top: 35px;
 }
 
 .services p {
@@ -104,6 +106,13 @@ nav {
 .reptiles {
 	background-color: #9C9C9C;
 	position: relative;
+	padding-top: 0px;
+}
+
+#gallery {
+	height: 350px;
+	position: absolute;
+	padding-top: 0px;
 }
 
 #gallery img {
@@ -114,11 +123,20 @@ nav {
 
 .references {
 	background-color: #FDFDFD;
+	padding-top: 35px;
 }
 
 .container .footer {
 	background-color: #EEEEEE;
 	height: 200px;
+	position: relative;
+}
+
+.footer span {
+	position: absolute;
+	right: 15px;
+	bottom: 20px;
+	font-size: 13px;
 }
 
 /* strzalka oznacza bezposrednie dziecko*/
