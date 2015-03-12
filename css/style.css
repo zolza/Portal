@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Signika';
+  src: url(../fonts/Signika-Regular.ttf) format('truetype');
+}
+
 * {
 	box-sizing: border-box; /* automatyzuje wysokosc, dopasowuje paddingi*/
 }
@@ -8,7 +13,7 @@ html, body {
 
 body {
 	background-color: #FDFDFD;
-	font-family: 'Overlock', Arial;
+	font-family: 'Signika';
 	text-align: center;
 }
 
@@ -146,10 +151,6 @@ nav {
 .container > .about:hover {
 	opacity: 0.9;
 } */
-
-p {
-	font-family: 'Overlock', Arial;
-}
 
 .about p {
 	margin-top: 0px;
