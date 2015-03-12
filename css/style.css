@@ -1,6 +1,16 @@
 @font-face {
-  font-family: 'Signika';
+  font-family: 'Signika-Light';
+  src: url(../fonts/Signika-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Signika-Regular';
   src: url(../fonts/Signika-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Signika-Bold';
+  src: url(../fonts/Signika-Bold.ttf) format('truetype');
 }
 
 * {
@@ -13,7 +23,7 @@ html, body {
 
 body {
 	background-color: #FDFDFD;
-	font-family: 'Signika';
+	font-family: 'Signika-Light';
 	text-align: center;
 }
 
@@ -32,6 +42,7 @@ nav {
 	height: 100%;
 	position: absolute;
 	top:0;
+	font-family: 'Signika-Regular';
 }
 
 .menu {
