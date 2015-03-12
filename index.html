@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="photobox-master/photobox/photobox.css">
 	<script src="js/jquery.min.js"></script>
 	<script src='photobox-master/photobox/jquery.photobox.js'></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
 </head>
 
 <body>
@@ -15,10 +16,10 @@
 <header>
 	<nav>
 		<ul class="menu">
-			<li id="navAbout"><a href='#'>O firmie</a></li>
-			<li id="navServ"><a href='#'>Nasze usługi</a></li>
-			<li id="navRef"><a href='#'>Referencje</a></li>
-			<li id="navContact"><a href='#'>Kontakt</a></li>
+			<li id="navAbout"><a href='#' data-target=".about">O firmie</a></li>
+			<li id="navServ"><a href='#' data-target=".services">Nasze usługi</a></li>
+			<li id="navGall"><a href='#' data-target=".reptiles">Galeria</a></li>
+			<li id="navContact"><a href='#' data-target=".footer">Kontakt</a></li>
 		</ul>
 	</nav>
 </header>
@@ -66,11 +67,6 @@
 			</a>
 		</div>
 	</div>
-
-	<div class="references">
-		<p>Referencje</p>
-	</div>
-
 	<div class="footer">
 		<p>Kontakt <br>
 			<br>Adam Kozioł<br>Tarnów, małopolska<br><br>Pytania prosimy kierować na adres<br>email: <a href="mailto:firma.adbud@gmail.com"> firma.adbud@gmail.com </a> <span id="mynote">Projekt i wykonanie: Kinga Kozioł</span>
