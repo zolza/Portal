@@ -126,7 +126,7 @@ nav {
 }
 
 #gallery {
-	height: 350px;
+	height: 383px;
 	position: absolute;
 	padding-top: 0px;
 }
@@ -145,7 +145,7 @@ nav {
 
 .footer span {
 	position: absolute;
-	right: 15px;
+	right: 20px;
 	bottom: 20px;
 	font-size: 13px;
 }
@@ -173,4 +173,3 @@ nav {
 .footer p {
 	margin-top: 0px;
 }
-
