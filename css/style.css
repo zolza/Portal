@@ -14,6 +14,7 @@
 }
 
 * {
+	-moz-box-sizing: border-box;
 	box-sizing: border-box; /* automatyzuje wysokosc, dopasowuje paddingi*/
 }
 
@@ -55,12 +56,13 @@ nav {
 	padding-left: 0px;
 	margin-left: 0px;
 	display: inline-block;
-	width: 180px;
+	width: 13.34%;
 	height: 100%;
 	background-color: transparent;
 	color: black;
-	font-size: 22px;
-	line-height: 89px;
+	/*font-size: 22px; */
+	font-size: 100%;
+	line-height: 455%;
 }
 .menu li:hover {
 	background-color: rgba(0, 0, 0, 0.05);
@@ -81,6 +83,7 @@ nav {
 .container > div {
 	height: 350px;
 	width: 100%;
+	max-width: 1200px;
 }
 
 .about {
