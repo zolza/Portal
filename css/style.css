@@ -1,3 +1,10 @@
+@import url(css/style.medium.css) (min-width:481px) and (max-width:960px){
+	font-size: 18px;
+}
+@import url(css/style.small.css) (max-width: 480px){
+	font-size: 14px;
+}
+
 @font-face {
   font-family: 'Signika-Light';
   src: url(../fonts/Signika-Light.ttf) format('truetype');
@@ -60,8 +67,7 @@ nav {
 	height: 100%;
 	background-color: transparent;
 	color: black;
-	/*font-size: 22px; */
-	font-size: 100%;
+	font-size: 22px;
 	line-height: 455%;
 }
 .menu li:hover {
@@ -83,7 +89,6 @@ nav {
 .container > div {
 	height: 350px;
 	width: 100%;
-	max-width: 1200px;
 }
 
 .about {
@@ -176,3 +181,4 @@ nav {
 .footer p {
 	margin-top: 0px;
 }
+
