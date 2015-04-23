@@ -95,7 +95,7 @@ nav {
 
 .about p {
 	width: 70%;
-	text-align: center;
+	text-align: justify;
 	display: inline-block;
 	position: absolute;
 	left: 0;
@@ -118,6 +118,7 @@ nav {
 .services p {
 	padding-left: 200px;
 	padding-right: 200px;
+	text-align: justify;
 }
 
 .reptiles {
@@ -183,12 +184,29 @@ nav {
 .container p {
 	font-size: 13px;
 }
+.about p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.services p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .footer span {
 	font-size: 11px;
-}}
+}
 
 @media (max-width:480px) {
 	.menu li {
 		font-size: 11px;
-} /*tutaj zrobic hamburgera */
+} 
+/*tutaj zrobic hamburgera */
+.about p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
+@media (orientation: landscape) {
+
 }
