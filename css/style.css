@@ -64,7 +64,8 @@ nav {
 	line-height: 455%;
 }
 .menu li:hover {
-	background-color: rgba(0, 0, 0, 0.05);
+	background-color: #ADC964;
+	opacity: 0.7;
 }
 
 .menu li a {
@@ -187,13 +188,14 @@ header {
 .menu li {
 	font-size: 15px;
 	display: block;
-	height: 30%;
+	height: 25%;
 	width: 30%;
 	top:0;
 }
 
 .menu li a {
 	display: inline-block;
+	height: 25%;
 /*przesuniecie naprawic*/
 }
 
@@ -203,6 +205,7 @@ header {
 .about p {
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 40px;
 }
 .services p {
 	padding-left: 10px;
