@@ -177,7 +177,9 @@ nav {
 	margin-top: 0px;
 }
 
-@media (min-width:481px) and (max-width:960px) {
+
+@media (min-width: 481px) and (max-width: 960px) {
+
 header {
 	height: 150px;
 	position: fixed;
@@ -211,18 +213,62 @@ header {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+#gallery img {
+	display: inline-block;
+	width: 20%;
+	height: 20%;
+}
 .footer span {
 	font-size: 11px;
 }
+}
 
-@media (max-width:480px) {
-	.menu li {
-		font-size: 11px;
-} 
+@media (max-width: 480px) {
 /*tutaj zrobic hamburgera */
+
+.container p {
+	font-size: 13px;
+}
 .about p {
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-top: 45px;
+	width: 100%;
+}
+
+.about img {
+	/*musi zniknac*/
+	display: none;
+	width: 0%;
+}
+header {
+	height: 150px;
+	position: fixed;
+	top: 0;
+	left:0;
+	right:0;
+}
+.menu li {
+	font-size: 15px;
+	display: block;
+	height: 25%;
+	width: 30%;
+	top:0;
+}
+.menu li a {
+/*burger*/
+}
+.services p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#gallery img {
+	display: inline-block;
+	width: 20%;
+	height: 20%;
+}
+.footer span {
+	font-size: 11px;
 }
 }
 
