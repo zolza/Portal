@@ -1,3 +1,3 @@
-$("nav").click(function(){
-    $("li").toggle();
+$(".burger-menu").click(function(){
+    $(".menu").toggle();
 });

@@ -76,6 +76,10 @@ nav {
 	display: inline-block;
 }
 
+.burger-menu {
+	display: none;
+}
+
 .container {
 	margin-top: 100px;
 }
@@ -187,11 +191,17 @@ header {
 	left:0;
 	right:0;
 }
+
+.menu {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 .menu li {
 	font-size: 15px;
 	display: block;
 	height: 25%;
-	width: 30%;
+	width: 100%;
 	top:0;
 	line-height: 215%;
 }
@@ -199,7 +209,7 @@ header {
 .menu li a {
 	display: inline-block;
 	height: 25%;
-/*przesuniecie naprawic*/
+	width: 100%;
 }
 
 .container p {
@@ -242,6 +252,7 @@ header {
 	display: none;
 	width: 0%;
 }
+
 header {
 	height: 150px;
 	position: fixed;
@@ -260,6 +271,11 @@ header {
 .menu li a {
 /*burger*/
 }
+
+.burger-menu {
+	display: none;
+}
+
 .services p {
 	padding-left: 10px;
 	padding-right: 10px;
