@@ -86,6 +86,24 @@ nav {
   position:relative;
 }
 
+.burger-menu:after, .burger-menu:before {
+  content: '';
+  width: 30px;
+  height:5px;
+  background-color:red;
+  position:absolute;
+  border-radius:5px;
+}
+.burger-menu:after
+{
+  top:10px;
+}
+
+.burger-menu:before
+{
+  top:20px;
+}
+
 .container {
 	margin-top: 100px;
 }
