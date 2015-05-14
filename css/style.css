@@ -14,306 +14,310 @@
 }
 
 * {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box; /* automatyzuje wysokosc, dopasowuje paddingi*/
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; /* automatyzuje wysokosc, dopasowuje paddingi*/
 }
 
 html, body {
-	margin: 0;
+  margin: 0;
 }
 
 body {
-	background-color: #FDFDFD;
-	font-family: 'Signika-Light';
-	text-align: center;
+  background-color: #FDFDFD;
+  font-family: 'Signika-Light';
+  text-align: center;
 }
 
 header {
-	background-color: #E6E6E6;
-	height: 100px;
-	position: fixed;
-	top: 0;
-	left:0;
-	right:0;
-	z-index: 100;
+  background-color: #E6E6E6;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  z-index: 100;
 }
 
-
 nav {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top:0;
-	font-family: 'Signika-Regular';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  font-family: 'Signika-Regular';
 }
 
 .menu {
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .menu li {
-	list-style-type: none;
-	padding-left: 0px;
-	margin-left: 0px;
-	display: inline-block;
-	width: 13.34%;
-	height: 100%;
-	background-color: transparent;
-	color: black;
-	font-size: 22px;
-	line-height: 455%;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  display: inline-block;
+  width: 13.34%;
+  height: 100%;
+  background-color: transparent;
+  color: black;
+  font-size: 22px;
+  line-height: 455%;
 }
 .menu li:hover {
-	background-color: #ADC964;
-	opacity: 0.7;
+  background-color: #ADC964;
+  opacity: 0.7;
 }
 
 .menu li a {
-	text-decoration: none;
-	color: black;
-	width: 100%;
-	height: 100%;
-	display: inline-block;
-}
-
-.burger-menu {
-/*	display: none; */
-  width:30px;
-  height:5px;
-  background-color: black;
-  border-radius:5px;
-  position:relative;
-  top: 5px;
-}
-
-.burger-menu:after, .burger-menu:before {
-  content: '.'; /*co się dzieje przy usunięciu content, czemu jest niżej?*/
+  text-decoration: none;
+  color: black;
   width: 100%;
-  height:5px;
-  background-color:red;
-  position:absolute;
-  border-radius:5px;
-}
-
-.burger-menu:after
-{
-  top:15px;
-}
-
-.burger-menu:before
-{
-  top:25px;
+  height: 100%;
+  display: inline-block;
 }
 
 .container {
-	margin-top: 100px;
+  margin-top: 100px;
+}
+
+.burger-menu {
+  display: none;
 }
 
 .container > div {
-	height: 350px;
-	width: 100%;
+  height: 350px;
+  width: 100%;
 }
 
 .about {
-	background-color: #FFFFFF;
-	width: 70%;
-	position: relative;
-	padding-bottom: 35px;
-	position: relative;
-	padding-top: 35px;
+  background-color: #FFFFFF;
+  width: 70%;
+  position: relative;
+  padding-bottom: 35px;
+  position: relative;
+  padding-top: 35px;
 }
 
 .about p {
-	width: 70%;
-	text-align: justify;
-	display: inline-block;
-	position: absolute;
-	left: 0;
-	padding-left: 150px;
-	padding-right: 150px;
+  width: 70%;
+  text-align: justify;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .about img {
-	height: 80%;
-	width: 30%;
-	position: absolute;
-	right: 0;
+  height: 80%;
+  width: 30%;
+  position: absolute;
+  right: 0;
 }
 
 .services {
-	background-color: #EEEEEE;
-	padding-top: 35px;
+  background-color: #EEEEEE;
+  padding-top: 35px;
 }
 
 .services p {
-	padding-left: 150px;
-	padding-right: 200px;
-	text-align: justify;
+  padding-left: 150px;
+  padding-right: 200px;
+  text-align: justify;
 }
 
 .reptiles {
-	background-color: #9C9C9C;
-	position: relative;
-	padding-top: 0px;
+  background-color: #9C9C9C;
+  position: relative;
+  padding-top: 0px;
 }
 
 #gallery {
-	height: 383px;
-	position: absolute;
-	padding-top: 0px;
+  height: 383px;
+  position: absolute;
+  padding-top: 0px;
 }
 
 #gallery img {
-	display: inline-block;
-	width: 20%;
-	height: 45%;
+  display: inline-block;
+  width: 20%;
+  height: 45%;
 }
 
 .container .footer {
-	background-color: #EEEEEE;
-	height: 200px;
-	position: relative;
+  background-color: #EEEEEE;
+  height: 200px;
+  position: relative;
 }
 
 .footer span {
-	position: absolute;
-	right: 20px;
-	bottom: 20px;
-	font-size: 13px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 13px;
 }
 
 /* strzalka oznacza bezposrednie dziecko*/
 /*.container > .about {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 .container > .about:hover {
-	opacity: 0.9;
+  opacity: 0.9;
 } */
 
 .about p {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 .services p {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 .references p {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 .footer p {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 
 @media (min-width: 481px) and (max-width: 960px) {
 
-header {
-	height: 150px;
-	position: fixed;
-	top: 0;
-	left:0;
-	right:0;
-}
+  header {
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+  }
 
-.menu {
-	padding-left: 100px;
-	padding-right: 100px;
-}
+  .menu {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 
-.menu li {
-	font-size: 15px;
-	display: block;
-	height: 25%;
-	width: 100%;
-	top:0;
-	line-height: 215%;
-}
+  .menu li {
+    font-size: 15px;
+    display: block;
+    height: 25%;
+    width: 100%;
+    top: 0;
+    line-height: 215%;
+  }
 
-.menu li a {
-	display: inline-block;
-	height: 25%;
-	width: 100%;
-}
+  .menu li a {
+    display: inline-block;
+    height: 25%;
+    width: 100%;
+  }
 
-.container p {
-	font-size: 13px;
-}
-.about p {
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 40px;
-}
-.services p {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-#gallery img {
-	display: inline-block;
-	width: 20%;
-	height: 20%;
-}
-.footer span {
-	font-size: 11px;
-}
-}
+  .burger-menu {
+    display: none;
+  }
+
+  .container p {
+    font-size: 13px;
+  }
+  .about p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+  }
+  .services p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #gallery img {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+  }
+  .footer span {
+    font-size: 11px;
+  }
+  }
 
 @media (max-width: 480px) {
-/*tutaj zrobic hamburgera */
+  .burger-menu {
+    width: 30px;
+    height: 5px;
+    background-color: #111;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+  }
 
-.container p {
-	font-size: 13px;
-}
-.about p {
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 45px;
-	width: 100%;
-}
+  .burger-menu:after, .burger-menu:before {
+    content: ''; /*co się dzieje przy usunięciu content, czemu jest niżej?*/
+    width: 100%;
+    height: 5px;
+    background-color: #111;
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+  }
 
-.about img {
-	/*musi zniknac*/
-	display: none;
-	width: 0%;
-}
+  .burger-menu:after {
+    top: 9px;
+  }
 
-header {
-	height: 150px;
-	position: fixed;
-	top: 0;
-	left:0;
-	right:0;
-}
-.menu li {
-	font-size: 15px;
-	display: block;
-	height: 25%;
-	width: 30%;
-	top:0;
-	line-height: 230%;
-}
-.menu li a {
-/*burger*/
-}
+  .burger-menu:before {
+    top: 18px;
+  }
 
-.burger-menu {
-	display: none;
-}
+  .container p {
+    font-size: 13px;
+  }
 
-.services p {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-#gallery img {
-	display: inline-block;
-	width: 20%;
-	height: 20%;
-}
-.footer span {
-	font-size: 11px;
-}
+  .about p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 45px;
+    width: 100%;
+  }
+
+  .about img {
+    /*musi zniknac*/
+    display: none;
+    width: 0%;
+  }
+
+  header {
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+  }
+
+  .menu li {
+    font-size: 15px;
+    display: block;
+    height: 25%;
+    width: 30%;
+    top:0;
+    line-height: 230%;
+  }
+
+  .menu li a {
+  /*burger*/
+  }
+
+  .services p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #gallery img {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+  }
+
+  .footer span {
+    font-size: 11px;
+  }
 }
 
 @media (orientation: landscape) {
