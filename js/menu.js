@@ -1,3 +1,5 @@
-$(".burger-menu").click(function(){
+$(document).ready(function(){
+  $(".burger-menu").on("click", function(){
     $(".menu").toggle();
+  });
 });
