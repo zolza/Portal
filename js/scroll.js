@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".menu li").on('click', function(event) {
-    event.preventDefault(); //preventDefault blokuje domyślne zachowanie przeglądaki, mam tutaj linki
+    event.preventDefault();
     var element = $(event.target).attr('data-target');
 
     $('html, body').animate({
