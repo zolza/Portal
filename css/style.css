@@ -29,13 +29,22 @@ body {
 }
 
 header {
-  background-color: #E6E6E6;
+  background-color: #d0f5ee;
   height: 100px;
   position: fixed;
   top: 0;
   left:0;
   right:0;
   z-index: 100;
+}
+
+header img {
+  width: 9.5%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  float: left;
+  left: 0;
 }
 
 nav {
@@ -64,8 +73,8 @@ nav {
   line-height: 455%;
 }
 .menu li:hover {
-  background-color: #ADC964;
-  opacity: 0.7;
+  background-color: #245582;
+  opacity: 0.9;
 }
 
 .menu li a {
@@ -116,7 +125,7 @@ nav {
 }
 
 .services {
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   padding-top: 35px;
 }
 
@@ -127,7 +136,7 @@ nav {
 }
 
 .reptiles {
-  background-color: #9C9C9C;
+  background-color: #dceded;
   position: relative;
   padding-top: 0px;
 }
@@ -145,7 +154,7 @@ nav {
 }
 
 .container .footer {
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   height: 200px;
   position: relative;
 }
